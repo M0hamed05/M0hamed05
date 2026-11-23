@@ -1,0 +1,60 @@
+name: Update Latest Repos
+
+on:
+  schedule:
+    - cron: '0 0 * * *'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  update-readme:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Fetch latest repos and update README
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          node -e '
+          const fs = require("fs");
+
+          async function run() {
+            const res = await fetch("https://api.github.com/users/M0hamed05/repos?sort=created&direction=desc&per_page=10", {
+              headers: { Authorization: `Bearer ${process.env.GITHUB_TOKEN}` }
+            });
+            const repos = await res.json();
+
+            const filtered = repos
+              .filter(r => !r.fork && r.name !== "M0hamed05")
+              .slice(0, 5);
+
+            let table = "| Project | Description | Language |\n| :--- | :--- | :--- |\n";
+            for (const r of filtered) {
+              const name = `[**${r.name}**](${r.html_url})`;
+              const desc = r.description ? r.description.replace(/\|/g, "-") : "No description provided.";
+              const lang = r.language ? `\`${r.language}\`` : "N/A";
+              table += `| ${name} | ${desc} | ${lang} |\n`;
+            }
+
+            const readme = fs.readFileSync("README.md", "utf8");
+            const updated = readme.replace(
+              /<!-- REPO_LIST:START -->[\s\S]*<!-- REPO_LIST:END -->/,
+              `<!-- REPO_LIST:START -->\n${table.trim()}\n<!-- REPO_LIST:END -->`
+            );
+
+            fs.writeFileSync("README.md", updated);
+          }
+
+          run();
+          '
+
+      - name: Commit and push if changed
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add README.md
+          git diff --quiet && git diff --staged --quiet || (git commit -m "Update latest repos table" && git push)
