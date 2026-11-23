@@ -18,6 +18,13 @@ Computer Science student with a strong foundation in C++, Data Structures, and P
 
 ## 🚀 Latest Repos:
 <!-- REPO_LIST:START -->
+| Project | Description | Language |
+| :--- | :--- | :--- |
+| [**Workflow-Tools**](https://github.com/M0hamed05/Workflow-Tools) | Tools was made to save time and improve productivity while learning or working on the device. Built using vibe coding with antigravity | `C#` |
+| [**Github-User-Finder**](https://github.com/M0hamed05/Github-User-Finder) | Search using your username to get a simple profile view and analysis—including the most used programming language and recent repositories—built as a modular Vanilla JavaScript responsive web app with light/dark theme support. Built to practice REST APIs and LocalStorage. | `JavaScript` |
+| [**Typing-Speed-Test**](https://github.com/M0hamed05/Typing-Speed-Test) | A place where you can test and practice your typing speed using your own custom sentences or difficulty levels, in Arabic or English, either by yourself or against the PC. Built with HTML, CSS, and JavaScript to practice DOM manipulation. | `JavaScript` |
+| [**Habit-Tracker-Project**](https://github.com/M0hamed05/Habit-Tracker-Project) | A responsive Angular habit tracking app featuring daily/weekly habit management, customizable layout toggles, and an integrated AI chat assistant. | `HTML` |
+| [**BetterPc-App**](https://github.com/M0hamed05/BetterPc-App) | Lightweight desktop application that combines tools to free up Windows space and optimize speed. | `C#` |
 <!-- REPO_LIST:END -->
 
 ## 📊 GitHub Stats:
