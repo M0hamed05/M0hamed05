@@ -5,7 +5,7 @@
 </div>
 
 # 💫 About Me:
-Computer Science student with a strong foundation in C++, Data Structures, and Problem Solving. I have hands-on experience developing desktop applications using C#, Windows Forms, and ADO.NET / SQL Server, alongside exploring Android development (with DEPI) and Frontend development using Angular (with ITI). Every stage of my learning journey is backed by real projects uploaded here on GitHub. Currently, I am focusing on becoming a **Full-Stack Developer** with **React** and **ASP.NET**.
+CS student. I started learning programming basics with C++, Data Structures, and Problem Solving. I also developed Windows Forms apps using C# and ADO.NET for database connectivity, and tried Android track with DEPI and Frontend development using Angular with ITI. I have a project for every stage of my learning uploaded on my GitHub. Currently, I am seeking to be a full stack dev with React frontend and ASP.NET backend.
 
 <div>
 
