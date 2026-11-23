@@ -16,7 +16,7 @@ Computer Science student with a strong foundation in C++, Data Structures, and P
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-%230077B5.svg?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/mohamed--hassanien/) [![Discord](https://img.shields.io/badge/Discord-%237289DA.svg?style=for-the-badge&logo=discord&logoColor=white)](https://discord.com/users/pharaoh1973)
 
 
-## 🚀 Latest Projects:
+## 🚀 Latest Repos:
 <!-- REPO_LIST:START -->
 <!-- REPO_LIST:END -->
 
