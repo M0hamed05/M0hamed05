@@ -24,11 +24,11 @@ CS student. I started learning programming basics with C++, Data Structures, and
 <!-- REPO_LIST:START -->
 | Project | Description | Language |
 | :--- | :--- | :--- |
-| [**Workflow-Tools**](https://github.com/M0hamed05/Workflow-Tools) | Tools was made to save time and improve productivity while learning or working on the device. Built using vibe coding with antigravity | `C#` |
-| [**Github-User-Finder**](https://github.com/M0hamed05/Github-User-Finder) | Search using your username to get a simple profile view and analysis—including the most used programming language and recent repositories—built as a modular Vanilla JavaScript responsive web app with light/dark theme support. Built to practice REST APIs and LocalStorage. | `JavaScript` |
-| [**Typing-Speed-Test**](https://github.com/M0hamed05/Typing-Speed-Test) | A place where you can test and practice your typing speed using your own custom sentences or difficulty levels, in Arabic or English, either by yourself or against the PC. Built with HTML, CSS, and JavaScript to practice DOM manipulation. | `JavaScript` |
-| [**Habit-Tracker-Project**](https://github.com/M0hamed05/Habit-Tracker-Project) | A responsive Angular habit tracking app featuring daily/weekly habit management, customizable layout toggles, and an integrated AI chat assistant. | `HTML` |
-| [**BetterPc-App**](https://github.com/M0hamed05/BetterPc-App) | Lightweight desktop application that combines tools to free up Windows space and optimize speed. | `C#` |
+| [**react-intermdiate-projects**](https://github.com/M0hamed05/react-intermdiate-projects) | Projects made to practice React intermediate topics like component composition, useEffect, how React works behind the scenes, and more. Projects were made across The Ultimate React Course by Jonas Schmedtmann | `JavaScript` |
+| [**5-react-fundamentals-projects**](https://github.com/M0hamed05/5-react-fundamentals-projects) | Projects made to practice React fundamentals like components, props, JSX, and more. 4 were made across The Ultimate React Course by Jonas Schmedtmann and 1 without a tutorial. | `JavaScript` |
+| [**workflow-tools**](https://github.com/M0hamed05/workflow-tools) | Tools was made to save time and improve productivity while learning or working on the device. Built using vibe coding with antigravity | `C#` |
+| [**github-user-finder**](https://github.com/M0hamed05/github-user-finder) | Search using your username to get a simple profile view and analysis—including the most used programming language and recent repositories—built as a modular Vanilla JavaScript responsive web app with light/dark theme support. Built to practice REST APIs and LocalStorage. | `JavaScript` |
+| [**typing-speed-test**](https://github.com/M0hamed05/typing-speed-test) | A place where you can test and practice your typing speed using your own custom sentences or difficulty levels, in Arabic or English, either by yourself or against the PC. Built with HTML, CSS, and JavaScript to practice DOM manipulation. | `JavaScript` |
 <!-- REPO_LIST:END -->
 
 ## 📊 GitHub Stats:
