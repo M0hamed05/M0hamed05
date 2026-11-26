@@ -24,7 +24,7 @@ CS student. I started learning programming basics with C++, Data Structures, and
 <!-- REPO_LIST:START -->
 | Project | Description | Language |
 | :--- | :--- | :--- |
-| [**react-intermdiate-projects**](https://github.com/M0hamed05/react-intermdiate-projects) | Projects made to practice React intermediate topics like component composition, useEffect, how React works behind the scenes, and more. Projects were made across The Ultimate React Course by Jonas Schmedtmann | `JavaScript` |
+| [**react-intermediate-projects**](https://github.com/M0hamed05/react-intermediate-projects) | Projects made to practice React intermediate topics like component composition, useEffect, how React works behind the scenes, and more. Projects were made across The Ultimate React Course by Jonas Schmedtmann | `JavaScript` |
 | [**5-react-fundamentals-projects**](https://github.com/M0hamed05/5-react-fundamentals-projects) | Projects made to practice React fundamentals like components, props, JSX, and more. 4 were made across The Ultimate React Course by Jonas Schmedtmann and 1 without a tutorial. | `JavaScript` |
 | [**workflow-tools**](https://github.com/M0hamed05/workflow-tools) | Tools was made to save time and improve productivity while learning or working on the device. Built using vibe coding with antigravity | `C#` |
 | [**github-user-finder**](https://github.com/M0hamed05/github-user-finder) | Search using your username to get a simple profile view and analysis—including the most used programming language and recent repositories—built as a modular Vanilla JavaScript responsive web app with light/dark theme support. Built to practice REST APIs and LocalStorage. | `JavaScript` |
